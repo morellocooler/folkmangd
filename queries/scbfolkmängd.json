@@ -1,0 +1,46 @@
+{
+  "query": [
+    {
+      "code": "Region",
+      "selection": {
+        "filter": "vs:RegionLän07",
+        "values": [
+          "03"
+        ]
+      }
+    },
+    {
+      "code": "Alder",
+      "selection": {
+        "filter": "agg:Ålder10år",
+        "values": [
+          "-4",
+          "5-14",
+          "15-24",
+          "25-34",
+          "35-44",
+          "45-54",
+          "55-64",
+          "65-74",
+          "75-84",
+          "85-94",
+          "95+",
+          "us"
+        ]
+      }
+    },
+    {
+      "code": "Kon",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "px"
+  }
+}
